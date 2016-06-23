@@ -1,0 +1,18 @@
+# This file is intended to be used by Travis. More info https://github.com/ros-industrial/industrial_ci/blob/master/README.rst#id27
+# Those who want to download all source of MoveIt! can instead use ./moveit.rosinstall file.
+- git:
+    local-name: moveit_docs
+    uri: https://github.com/ros-planning/moveit_docs.git
+    version: jade-devel
+- git:
+    local-name: moveit_msgs
+    uri: https://github.com/ros-planning/moveit_msgs.git
+    version: jade-devel
+- git:
+    local-name: srdfdom
+    uri: https://github.com/ros-planning/srdfdom.git
+    version: indigo-devel
+- git:
+    local-name: warehouse_ros
+    uri: https://github.com/ros-planning/warehouse_ros.git
+    version: jade-devel
