@@ -32,15 +32,13 @@ moveit_commander | [![Build Status](http://build.ros.org/buildStatus/icon?job=Js
 
 The automated script for merging repos is located [here](https://github.com/davetcoleman/moveit_merge/tree/master). To copy your code changes on your own machine into the same unified structure, simply copy the previously separated packages as subfolders in this new unified repository.
 
-Currently this repo build in Jade but will soon build in Kinetic
-
 ## Install
 
 ### Ubuntu Debian
 
 > Note: this package has not been released yet
 
-    sudo apt-get install ros-kinetic-moveit-desktop-full
+    sudo apt-get install ros-kinetic-moveit
 
 ### Build from Source
 
@@ -51,13 +49,30 @@ To build this package in a new workspace:  TODO switch to kinetic
     wstool init .
     wstool merge https://raw.githubusercontent.com/davetcoleman/moveit/kinetic-devel/moveit.rosinstall
     wstool update
-    rosdep install --from-paths . --ignore-src --rosdistro jade
+    rosdep install --from-paths . --ignore-src --rosdistro kinetic
     cd ..
     catkin build
 
 ## Build with Docker in a Container
 
 A Docker container is available for testing in [moveit_docker](https://github.com/davetcoleman/moveit_docker)
+
+## Build in Kinetic notes
+
+Temporary notes:
+
+There are a lot of missing dependencies. To build from source, first switch to shadow fixed repo:
+http://wiki.ros.org/ShadowRepository
+
+    apt-get install python-pyassimp
+
+## Repos with Kinetic Branches
+
+Repo            | Latest Branch
+--------------- | -------------
+setup_assistant | jade-devel
+core            | kinetic-devel
+
 
 ## Contribute
 
