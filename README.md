@@ -8,7 +8,7 @@ Travis - Continuous Integration | Coveralls - Coverage
 ------------------------------- | --------------------
 [![Build Status](https://travis-ci.org/davetcoleman/moveit.svg)](https://travis-ci.org/davetcoleman/moveit) | [![Coverage Status](https://coveralls.io/repos/github/davetcoleman/moveit/badge.svg?branch=kinetic-devel)](https://coveralls.io/github/davetcoleman/moveit?branch=kinetic-devel)
 
-ROS Buildfarm | Trusty Devel Source | AMD64 Trusty Debian
+ROS Buildfarm | Jade Trusty Devel Source | AMD64 Jade Trusty Debian
 ------------- | ------------------- | -------------------
 moveit_core | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jsrc_uT__moveit_core__ubuntu_trusty__source)](http://build.ros.org/view/Jsrc_uT/job/Jsrc_uT__moveit_core__ubuntu_trusty__source/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uT64__moveit_core__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Jbin_uT64/job/Jbin_uT64__moveit_core__ubuntu_trusty_amd64__binary/)
 moveit_ros | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jsrc_uT__moveit_ros__ubuntu_trusty__source)](http://build.ros.org/view/Jsrc_uT/job/Jsrc_uT__moveit_ros__ubuntu_trusty__source/) | [![Build Status](http://build.ros.org/buildStatus/icon?job=Jbin_uT64__moveit_ros__ubuntu_trusty_amd64__binary)](http://build.ros.org/view/Jbin_uT64/job/Jbin_uT64__moveit_ros__ubuntu_trusty_amd64__binary/)
@@ -64,14 +64,19 @@ Temporary notes:
 There are a lot of missing dependencies. To build from source, first switch to shadow fixed repo:
 http://wiki.ros.org/ShadowRepository
 
-    apt-get install python-pyassimp
-
-## Repos with Kinetic Branches
+## Latest MoveIt! Branches (some may not be Kinetic yet)
 
 Repo            | Latest Branch
 --------------- | -------------
+core            | kinetic-devel - synced indigo-> jade
+ros             | jade-devel - synced indigo-> jade
+msgs            | jade-devel
+planners        | kinetic-devel
+plugins         | jade-devel
+commander       | jade-devel
+resources       | master
 setup_assistant | jade-devel
-core            | kinetic-devel
+docs            | kinetic-devel
 
 
 ## Contribute
