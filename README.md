@@ -57,21 +57,19 @@ To build this package in a new workspace:  TODO switch to kinetic
 
 A Docker container is available for testing in [moveit_docker](https://github.com/davetcoleman/moveit_docker)
 
-## Build in Kinetic notes
-
-Temporary notes:
+## Temporary Build in Kinetic notes
 
 There are a lot of missing dependencies. To build from source, first switch to shadow fixed repo:
 http://wiki.ros.org/ShadowRepository
 
 ## Latest MoveIt! Branches (some may not be Kinetic yet)
 
-Repo            | Latest Branch
---------------- | -------------
-core            | kinetic-devel - synced indigo-> jade
-ros             | jade-devel - synced indigo-> jade
-msgs            | jade-devel
-planners        | kinetic-devel
+Repo            | Latest Branch | Notes
+--------------- | ------------- | ------
+core            | kinetic-devel | TODO sync jade to kinetic
+ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/607
+msgs            | jade-devel    |
+planners        | kinetic-devel |
 plugins         | jade-devel
 commander       | jade-devel
 resources       | master
