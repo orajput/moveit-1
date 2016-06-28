@@ -42,7 +42,7 @@ The automated script for merging repos is located [here](https://github.com/dave
 
 ### Build from Source
 
-To build this package in a new workspace:  TODO switch to kinetic
+To build this package in a new workspace:
 
     mkdir -p ws_moveit/src
     cd ws_moveit/src
@@ -66,10 +66,10 @@ http://wiki.ros.org/ShadowRepository
 
 Repo            | Latest Branch | Notes
 --------------- | ------------- | ------
-core            | kinetic-devel | TODO sync jade to kinetic
-ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/607
+core            | kinetic-devel | https://github.com/ros-planning/moveit_core/pull/304
+ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/699
 msgs            | jade-devel    |
-planners        | kinetic-devel |
+planners        | kinetic-devel | https://github.com/ros-planning/moveit_planners/pull/73
 plugins         | jade-devel
 commander       | jade-devel
 resources       | master
