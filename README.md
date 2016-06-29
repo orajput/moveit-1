@@ -76,6 +76,18 @@ resources       | master
 setup_assistant | jade-devel
 docs            | kinetic-devel
 
+Repo            | Latest Branch | Notes 																									| Branches to compile moveit in Kinetic
+--------------- | ------------- | ----------------------------------------------------- |
+core            | kinetic-devel | https://github.com/ros-planning/moveit_core/pull/304														| kinetic-devel-synced (davetcoleman)
+ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/699  | cbrew_warehouse_ros_refactor-fixed2 (davetcoleman)
+msgs            | jade-devel    |																											| jade-devel
+planners        | kinetic-devel | https://github.com/ros-planning/moveit_planners/pull/73													| kinetic-devel-cpp11 (davetcoleman)
+plugins         | jade-devel	|																											| jade-devel
+commander       | jade-devel	|																											| jade-devel
+resources       | master		|																											| master
+setup_assistant | jade-devel	|																											| jade-devel
+docs            | kinetic-devel	|																											| kinetic-devel
+
 
 ## Contribute
 
