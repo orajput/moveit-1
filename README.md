@@ -64,30 +64,23 @@ http://wiki.ros.org/ShadowRepository
 
 ## Latest MoveIt! Branches (some may not be Kinetic yet)
 
-Repo            | Latest Branch | Notes
---------------- | ------------- | ------
-core            | kinetic-devel | https://github.com/ros-planning/moveit_core/pull/304
-ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/699
-msgs            | jade-devel    |
-planners        | kinetic-devel | https://github.com/ros-planning/moveit_planners/pull/73
-plugins         | jade-devel
-commander       | jade-devel
-resources       | master
-setup_assistant | jade-devel
-docs            | kinetic-devel
-
-Repo            | Latest Branch | Notes 																									| Branches to compile moveit in Kinetic
---------------- | ------------- | ----------------------------------------------------- |
-core            | kinetic-devel | https://github.com/ros-planning/moveit_core/pull/304														| kinetic-devel-synced (davetcoleman)
-ros             | jade-devel    | https://github.com/ros-planning/moveit_ros/pull/698, https://github.com/ros-planning/moveit_ros/pull/699  | cbrew_warehouse_ros_refactor-fixed2 (davetcoleman)
-msgs            | jade-devel    |																											| jade-devel
-planners        | kinetic-devel | https://github.com/ros-planning/moveit_planners/pull/73													| kinetic-devel-cpp11 (davetcoleman)
-plugins         | jade-devel	|																											| jade-devel
-commander       | jade-devel	|																											| jade-devel
-resources       | master		|																											| master
-setup_assistant | jade-devel	|																											| jade-devel
-docs            | kinetic-devel	|																											| kinetic-devel
-
+Repo            | Latest Branch | Notes | Branches to compile moveit in Kinetic
+--------------- | ------------- | ----------------------------------------------------- | ---------------------------------------
+core            | kinetic-devel | ros-planning moveit_core [PR#304](https://github.com/ros-planning/moveit_core/pull/304) | [kinetic-devel-synced (davetcoleman)](https://github.com/davetcoleman/moveit_core/tree/kinetic-devel-synced)
+ros             | jade-devel    | ros-planning moveit_ros [PR#698](https://github.com/ros-planning/moveit_ros/pull/698), [PR#699]( https://github.com/ros-planning/moveit_ros/pull/699)  | [cbrew_warehouse_ros_refactor-fixed2 (davetcoleman)](https://github.com/davetcoleman/moveit_ros/tree/cbrew_warehouse_ros_refactor-fixed2)
+msgs            | jade-devel    | | jade-devel
+planners        | kinetic-devel | ros-planning moveit_planners [PR#73](https://github.com/ros-planning/moveit_planners/pull/73) | [kinetic-devel-cpp11 (davetcoleman)](https://github.com/davetcoleman/moveit_planners/tree/kinetic-devel-cpp11)
+plugins         | jade-devel	| | jade-devel
+commander       | jade-devel	| | jade-devel
+resources       | master		| | master
+setup_assistant | jade-devel	| | jade-devel
+docs            | kinetic-devel	| | kinetic-devel
+ikfast          | kinetic-devel	| | kinetic-devel
+experimental    | master	| | master
+srdfdom         | indigo-devel	| | indigo-devel
+warehouse_ros 	| jade-devel | | jade-devel
+manipulation_msgs 	| hydro-devel | | hydro-devel
+household_objects_database_msgs 	| hydro-devel | | hydro-devel
 
 ## Contribute
 
